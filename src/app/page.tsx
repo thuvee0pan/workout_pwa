@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, Dumbbell, Flame } from 'lucide-react';
 import workoutData from './workout-data.json';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 interface Exercise {
   name: string;
   sets?: number;
@@ -82,6 +83,7 @@ const WorkoutApp = () => {
           hover:shadow-lg`}
         onClick={() => setSelectedDay(isSelected ? null : workout.day)}
       >
+        <SpeedInsights></SpeedInsights>
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <Dumbbell className="w-6 h-6 text-gray-600" />
