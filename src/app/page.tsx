@@ -25,7 +25,7 @@ interface WorkoutPlan {
 }
 const WorkoutApp = () => {
   const [selectedDay, setSelectedDay] = useState<string | null>(null);
-  const { workouts } = workoutData.workoutPlan;
+  const { workouts }:WorkoutPlan = workoutData.workoutPlan;
 
   const getWorkoutTypeColor = (type: string) => {
     if (type.includes('Push')) return 'bg-blue-100 text-blue-800';
