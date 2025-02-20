@@ -1,0 +1,436 @@
+{
+  "workoutPlan": {
+    "name": "6-Day Split Workout Plan",
+    "description": "Push/Pull/Legs split routine optimized for muscle growth",
+    "workouts": [
+      {
+        "day": "Monday",
+        "workoutType": "Push 1 (Chest Priority)",
+        "warmup": [
+          {
+            "name": "Arm Circles",
+            "duration": "30 seconds"
+          },
+          {
+            "name": "Band Pull-Aparts",
+            "sets": 2,
+            "reps": "15"
+          },
+          {
+            "name": "Push-ups",
+            "sets": 2,
+            "reps": "10"
+          },
+          {
+            "name": "Empty Bar Bench Press",
+            "sets": 2,
+            "reps": "15"
+          }
+        ],
+        "mainExercises": [
+          {
+            "name": "Dumbbell Bench Press",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Incline Bench Press",
+            "sets": 4,
+            "reps": "8-12"
+          },
+          {
+            "name": "Military Press",
+            "sets": 3,
+            "reps": "8-12"
+          },
+          {
+            "name": "Machine Press",
+            "sets": 3,
+            "reps": "10-15"
+          }
+        ],
+        "accessoryWork": [
+          {
+            "name": "Lateral Raises",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Cable Flyes",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Triceps Pushdowns",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Overhead Triceps Extensions",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "workoutType": "Pull 1 (Back Width)",
+        "warmup": [
+          {
+            "name": "Cat-Cow Stretch",
+            "duration": "30 seconds"
+          },
+          {
+            "name": "Scapular Pull-ups",
+            "sets": 2,
+            "reps": "10"
+          },
+          {
+            "name": "Band Face Pulls",
+            "sets": 2,
+            "reps": "15"
+          },
+          {
+            "name": "Dead Hangs",
+            "duration": "30 seconds"
+          }
+        ],
+        "mainExercises": [
+          {
+            "name": "Pull-ups",
+            "sets": 4,
+            "reps": "As many as possible"
+          },
+          {
+            "name": "Lat Pulldowns",
+            "sets": 4,
+            "reps": "10-12"
+          },
+          {
+            "name": "Seated Cable Rows",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Chest-Supported Rows",
+            "sets": 3,
+            "reps": "10-12"
+          }
+        ],
+        "accessoryWork": [
+          {
+            "name": "Face Pulls",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Straight Arm Pulldowns",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Rear Delt Flyes",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Barbell Curls",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Hammer Curls",
+            "sets": 3,
+            "reps": "10-12"
+          }
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "workoutType": "Legs 1 (Quad Focus)",
+        "warmup": [
+          {
+            "name": "Walking High Knees",
+            "duration": "1 minute"
+          },
+          {
+            "name": "Bodyweight Squats",
+            "sets": 2,
+            "reps": "15"
+          },
+          {
+            "name": "Walking Lunges",
+            "duration": "1 minute"
+          },
+          {
+            "name": "Empty Bar Squats",
+            "sets": 2,
+            "reps": "15"
+          }
+        ],
+        "mainExercises": [
+          {
+            "name": "Back Squats",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Leg Press",
+            "sets": 4,
+            "reps": "10-12"
+          },
+          {
+            "name": "Bulgarian Split Squats",
+            "sets": 3,
+            "reps": "10-12 per leg"
+          },
+          {
+            "name": "Hack Squats",
+            "sets": 3,
+            "reps": "10-12"
+          }
+        ],
+        "accessoryWork": [
+          {
+            "name": "Leg Extensions",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Standing Calf Raises",
+            "sets": 4,
+            "reps": "15-20"
+          },
+          {
+            "name": "Seated Calf Raises",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Abs Circuit",
+            "sets": 3,
+            "reps": "To failure"
+          }
+        ]
+      },
+      {
+        "day": "Thursday",
+        "workoutType": "Push 2 (Shoulder Priority)",
+        "warmup": [
+          {
+            "name": "Arm Circles",
+            "duration": "30 seconds"
+          },
+          {
+            "name": "Band Pull-Aparts",
+            "sets": 2,
+            "reps": "15"
+          },
+          {
+            "name": "Light Lateral Raises",
+            "sets": 2,
+            "reps": "15"
+          },
+          {
+            "name": "Empty Bar Overhead Press",
+            "sets": 2,
+            "reps": "15"
+          }
+        ],
+        "mainExercises": [
+          {
+            "name": "Seated Dumbbell Press",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Arnold Press",
+            "sets": 4,
+            "reps": "10-12"
+          },
+          {
+            "name": "Incline Bench Press",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Machine Shoulder Press",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ],
+        "accessoryWork": [
+          {
+            "name": "Lateral Raise Drop Sets",
+            "sets": 3,
+            "reps": "12-15-20"
+          },
+          {
+            "name": "Cable Front Raises",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Upright Rows",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Close-Grip Bench Press",
+            "sets": 3,
+            "reps": "10-12"
+          }
+        ]
+      },
+      {
+        "day": "Friday",
+        "workoutType": "Pull 2 (Back Thickness)",
+        "warmup": [
+          {
+            "name": "Cat-Cow Stretch",
+            "duration": "30 seconds"
+          },
+          {
+            "name": "Band Pull-Aparts",
+            "sets": 2,
+            "reps": "15"
+          },
+          {
+            "name": "Light Rows",
+            "sets": 2,
+            "reps": "15"
+          },
+          {
+            "name": "Dead Hangs",
+            "duration": "30 seconds"
+          }
+        ],
+        "mainExercises": [
+          {
+            "name": "Pendlay Rows",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Single-Arm Dumbbell Rows",
+            "sets": 4,
+            "reps": "10-12 per arm"
+          },
+          {
+            "name": "T-Bar Rows",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Wide-Grip Pull-ups",
+            "sets": 3,
+            "reps": "As many as possible"
+          }
+        ],
+        "accessoryWork": [
+          {
+            "name": "Face Pulls",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Wide-Grip Cable Rows",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Reverse Pec Deck",
+            "sets": 3,
+            "reps": "15-20"
+          },
+          {
+            "name": "Preacher Curls",
+            "sets": 3,
+            "reps": "10-12"
+          },
+          {
+            "name": "Incline Dumbbell Curls",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ]
+      },
+      {
+        "day": "Saturday",
+        "workoutType": "Legs 2 (Hamstring Focus)",
+        "warmup": [
+          {
+            "name": "Walking High Knees",
+            "duration": "1 minute"
+          },
+          {
+            "name": "Bodyweight Good Mornings",
+            "sets": 2,
+            "reps": "15"
+          },
+          {
+            "name": "Glute Bridges",
+            "sets": 2,
+            "reps": "15"
+          },
+          {
+            "name": "Light Romanian Deadlifts",
+            "sets": 2,
+            "reps": "15"
+          }
+        ],
+        "mainExercises": [
+          {
+            "name": "Romanian Deadlifts",
+            "sets": 4,
+            "reps": "8-10"
+          },
+          {
+            "name": "Walking Lunges",
+            "sets": 3,
+            "reps": "12 per leg"
+          },
+          {
+            "name": "Leg Press (feet high)",
+            "sets": 4,
+            "reps": "12-15"
+          },
+          {
+            "name": "Good Mornings",
+            "sets": 3,
+            "reps": "12-15"
+          }
+        ],
+        "accessoryWork": [
+          {
+            "name": "Lying Leg Curls",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Seated Leg Curls",
+            "sets": 3,
+            "reps": "12-15"
+          },
+          {
+            "name": "Standing Calf Raises",
+            "sets": 4,
+            "reps": "15-20"
+          },
+          {
+            "name": "Abs Circuit",
+            "sets": 3,
+            "reps": "To failure"
+          }
+        ]
+      },
+      {
+        "day": "Sunday",
+        "workoutType": "Rest",
+        "warmup": [],
+        "mainExercises": [],
+        "accessoryWork": []
+      }
+    ]
+  }
+}
