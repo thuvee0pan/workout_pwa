@@ -3,19 +3,46 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, Dumbbell, Flame } from 'lucide-react';
 import workoutData from './workout-data.json';
+interface Exercise {
+  name: string;
+  sets?: number;
+  reps?: string;
+  duration?: string;
+}
 
+interface Workout {
+  day: string;
+  workoutType: string;
+  warmup: Exercise[];
+  mainExercises: Exercise[];
+  accessoryWork: Exercise[];
+}
+
+interface WorkoutPlan {
+  name: string;
+  description: string;
+  workouts: Workout[];
+}
 const WorkoutApp = () => {
-  const [selectedDay, setSelectedDay] = useState(null);
+  const [selectedDay, setSelectedDay] = useState<string | null>(null);
   const { workouts } = workoutData.workoutPlan;
 
-  const getWorkoutTypeColor = (type) => {
+  const getWorkoutTypeColor = (type: string) => {
     if (type.includes('Push')) return 'bg-blue-100 text-blue-800';
     if (type.includes('Pull')) return 'bg-green-100 text-green-800';
     if (type.includes('Legs')) return 'bg-purple-100 text-purple-800';
     return 'bg-gray-100 text-gray-800';
   };
 
-  const ExerciseList = ({ exercises, title, variant = 'default' }) => (
+  const ExerciseList = ({
+    exercises,
+    title,
+    variant = 'default'
+  }: {
+    exercises: Exercise[];
+    title: string;
+    variant?: 'default' | 'warmup'
+  }) => (
     <div>
       <h4 className="font-medium text-gray-700 mb-2 flex items-center gap-2">
         {variant === 'warmup' && <Flame className="w-4 h-4 text-orange-500" />}
@@ -23,11 +50,10 @@ const WorkoutApp = () => {
       </h4>
       <div className="space-y-2">
         {exercises.map((exercise, index) => (
-          <div 
-            key={index} 
-            className={`p-3 rounded-lg ${
-              variant === 'warmup' ? 'bg-orange-50' : 'bg-gray-50'
-            }`}
+          <div
+            key={index}
+            className={`p-3 rounded-lg ${variant === 'warmup' ? 'bg-orange-50' : 'bg-gray-50'
+              }`}
           >
             <div className="flex justify-between items-center">
               <span className="text-gray-800">{exercise.name}</span>
@@ -45,7 +71,7 @@ const WorkoutApp = () => {
     </div>
   );
 
-  const WorkoutCard = ({ workout }) => {
+  const WorkoutCard = ({ workout }: { workout: Workout }) => {
     const [isExpanded, setIsExpanded] = useState(false);
     const isSelected = selectedDay === workout.day;
     
@@ -125,5 +151,4 @@ const WorkoutApp = () => {
     </div>
   );
 };
-
 export default WorkoutApp;
